@@ -44,7 +44,7 @@ function W = findRegModel(DataPts, W)
         gradJ = mean(repmat((hThetaX - predY), size(Data,1),1).*Data, 2);
         W = W - alpha*gradJ;
 
-        if (max(abs(alpha*gradJ))<0.0005)
+        if (max(abs(alpha*gradJ))<0.05)
             %if gradient is almost zero return;
             return;
         end
