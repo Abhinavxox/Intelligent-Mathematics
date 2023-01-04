@@ -1,3 +1,4 @@
+%question 6
 function mainTestKMeans ()
 Datapoints = [0 1; 1 0; 1 1; 0 1; 5 5; 6 5; 6 6];
 K = 2;
