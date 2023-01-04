@@ -1,7 +1,4 @@
-#import diamonds.csv and experiment with it
-#using lasso regression and ridge regression and others as well
-#to predict the price of a diamond
-
+#question 5
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
