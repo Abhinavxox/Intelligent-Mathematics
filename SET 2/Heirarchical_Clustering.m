@@ -1,3 +1,4 @@
+%question 8
 function mainTestHierarchicalClustering()
     Datapoints = [0 1; 1 0; 1 1; 0 1; 5 5; 6 5; 6 6];
     HierarchicalClustering(Datapoints);
